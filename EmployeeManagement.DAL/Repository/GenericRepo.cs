@@ -1,4 +1,4 @@
-﻿using EmployeeManagement.DAL.Model.Entities;
+﻿using EmployeeManagement.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,7 +19,8 @@ namespace EmployeeManagement.DAL.Repository
 
         public Task<IEnumerable<T>> GetAll()
         {
-            
+            throw new NotImplementedException();
+
         }
 
         public Task<T> GetById(int id)
